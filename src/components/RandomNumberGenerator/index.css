@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px lightgray;
+  height: 500px;
+  width: 400px;
+}
+.heading {
+  font-size: 30px;
+  color: #0b69ff;
+  font-family: roboto;
+}
+
+.description {
+  font-size: 20px;
+  text-align: center;
+  font-family: roboto;
+  padding-bottom: 10px;
+}
+
+.btn {
+  width: 120px;
+  height: 30px;
+  background-color: #0b69ff;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.num {
+  font-size: 50px;
+  color: #0b69ff;
+}
+@media (max-width: 576px) {
+  .card-container {
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    height: 300px;
+    width: 200px;
+  }
+  .heading {
+    font-size: 20px;
+    color: #0b69ff;
+    font-family: roboto;
+  }
+
+  .description {
+    font-size: 13px;
+    text-align: center;
+    font-family: roboto;
+    padding-bottom: 5px;
+  }
+
+  .btn {
+    width: 100px;
+    height: 20px;
+    background-color: #0b69ff;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .num {
+    font-size: 30px;
+    color: #0b69ff;
+  }
+}
